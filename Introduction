@@ -1,0 +1,11 @@
+The objective of this tutorial is to deploy Linux distribution to Zedboard - Digilent card :
+	- Create a simple project and implemented in FPGA
+	- a Linaro(Ubuntu base) ROOTFS
+	- Then control our peripheral from software
+	
+	
+INTRODUCTION
+
+Zedboard is a developped kit who includes SoC Xilinx Zynq-7000, a chip has inside double cores ARM processor and also the peripherals as DDR controller, Ethernet, UART, DMA,...
+
+
