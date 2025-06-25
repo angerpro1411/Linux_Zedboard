@@ -4,8 +4,10 @@ The objective of this tutorial is to deploy Linux distribution to Zedboard - Dig
 	- Then control our peripheral from software
 	
 	
-INTRODUCTION
+# INTRODUCTION
 
-Zedboard is a developped kit who includes SoC Xilinx Zynq-7000, a chip has inside double cores ARM processor and also the peripherals as DDR controller, Ethernet, UART, DMA,...
+__Zedboard__ is a developped kit who includes SoC Xilinx Zynq-7000, a chip has inside double cores ARM processor and also the peripherals as DDR controller, Ethernet, UART, DMA,...
+![alt text](image.png)
 
-
+The special of Zynq compares to Embedded Computer that we have operating system in one side, and another side, we can develop our matertial design. Thanks to AXI interface, we can use operating system to control available material design(by Xilinx) or even our design.
+And another advantage of Zynq compares to old FPGA(Nexys), instead of using a part of FPGA to create soft processor (processor created by code), so we will lose logic resources but even less efficient than hard processor (real processor inlcuded on board) and hard to debug someways. 
