@@ -7,7 +7,7 @@ The objective of this tutorial is to deploy Linux distribution to Zedboard - Dig
 # INTRODUCTION
 
 __Zedboard__ is a developped kit who includes SoC Xilinx Zynq-7000, a chip has inside double cores ARM processor and also the peripherals as DDR controller, Ethernet, UART, DMA,...
-![alt text](image.png)
+
 
 The special of Zynq compares to Embedded Computer that we have operating system in one side, and another side, we can develop our matertial design. 
 Thanks to AXI interface, we can use operating system to control available material design(by Xilinx) or even our design.
