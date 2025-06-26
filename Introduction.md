@@ -1,4 +1,4 @@
-The objective of this tutorial is to deploy Linux distribution to Zedboard - Digilent card :
+The objective of this tutorial is to deploy Linux distribution to **_Zedboard_** - Digilent card :
 	- Create a simple project and implemented in FPGA
 	- a Linaro(Ubuntu base) ROOTFS
 	- Then control our peripheral from software
@@ -13,3 +13,5 @@ The special of Zynq compares to Embedded Computer that we have operating system 
 Thanks to AXI interface, we can use operating system to control available material design(by Xilinx) or even our design.
 And another advantage of Zynq compares to old FPGA(Nexys), instead of using a part of FPGA to create soft processor (processor created by code), 
 so we will lose logic resources but even less efficient than hard processor (real processor inlcuded on board) and hard to debug someways. 
+
+# Linux - why ?
